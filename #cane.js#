@@ -85,21 +85,3 @@ print();
 foo_1(6, 5);
 print();
 
-function calculator()
-{
-  opt = "";
-  while (opt != "q") {
-    write("Op: ");
-    opt = readline();
-    switch(opt) {
-      case "+":
-      write("x = ");
-      var x = parseInt(readline(), 10);
-      write("y = ");
-      var y = parseInt(readline(), 10);
-      print("x + y = " + (x + y));
-      break;
-    }
-  }
-}
-calculator();
